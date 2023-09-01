@@ -4,8 +4,7 @@
    <img src="https://assets.plan4better.de/img/logo/plan4better_standard.png" alt="Logo">
   </a>
 
-  <h3 align="center">Plan4Better, GmbH.</h3>
-
+  <br />
   <p align="left">
     Welcome to GitHub space! <br />
     Our open-source projects are a reflection of our commitment to making a positive impact on the world.
