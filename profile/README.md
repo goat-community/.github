@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <a href="https://github.com/calcom/cal.com">
+  <a href="https://github.com/goat-community">
    <img src="https://assets.plan4better.de/img/logo/plan4better_standard.png" alt="Logo">
   </a>
 
@@ -12,7 +12,7 @@
   
   </p>
   <p align="center">
-    <a href="https://plan4better.de"><strong>Learn more »</strong></a>
+    <a href="https://plan4better.de/en/docs"><strong>Learn more »</strong></a>
     <br />
     <a href="https://plan4better.de/en/blog">Blog</a>
     ·
