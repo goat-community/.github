@@ -2,7 +2,6 @@
 
 A special repository used to store documentation, templates, workflows, and descriptions for our organization. It is also used to provide default documents for all repositories. When a repository is created within our organization, it will automatically inherit the contents of the `.github` repository.
 
-
 ## Github Action Workflows
 
 ### Sync Labels
@@ -14,6 +13,7 @@ Syncs labels accross repositories of the organization.
 It should run on push.
 
 #### Requirements
+
 The labels are configured in a YAML file located in `.github/labels.yml` in this repo.
 The repositories must be specified in the `call-label-syncer.yml` workflow.
 This workflow requires to have permissions in order to operate on other repositories so you must specify a personal access token (PAT) in your secrets.
@@ -23,7 +23,6 @@ This workflow requires to have permissions in order to operate on other reposito
 | secrets  | description                    | required |
 | -------- | -------------------------------| -------- |
 | PAT      | personal access token          | true     |
-
 
 | inputs          | labels.yml configuration                    | required | default              |
 | --------------- | ------------------------------------------  | -------- | -------------------- |
@@ -58,7 +57,6 @@ jobs:
 
 ```
 
-
 `github/labels.yml`
 
 ``` yaml
@@ -69,4 +67,3 @@ jobs:
   color: ed2d69
   description: Devops related
 ```
-
