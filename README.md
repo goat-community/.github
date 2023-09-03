@@ -57,7 +57,7 @@ jobs:
 
 ```
 
-`github/labels.yml`
+`.github/labels.yml`
 
 ``` yaml
 - name: api
@@ -66,4 +66,31 @@ jobs:
 - name: devops
   color: ed2d69
   description: Devops related
+```
+
+### Apply Issue Labels to PR
+
+#### Description
+
+Applies labels from linked issues to pull requests. 
+It should run on a workflow call.
+
+``` yaml
+name: "Apply issue labels to PR"
+
+on:
+  pull_request_target:
+    types:
+      - opened
+
+jobs:
+  label-on-pr:
+    name: pr-apply-label
+    uses: "goat-community/.github/.github/workflows/pr-apply-issue-labels.yml@main"
+    permissions:
+      contents: none
+      issues: read
+      pull-requests: write
+    secrets: inherit
+
 ```
