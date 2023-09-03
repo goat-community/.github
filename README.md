@@ -72,7 +72,7 @@ jobs:
 
 #### Description
 
-Applies labels from linked issues to pull requests. 
+Applies labels from linked issues to pull requests.
 It should run on a workflow call.
 
 ``` yaml
