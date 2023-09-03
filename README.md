@@ -24,7 +24,7 @@ This workflow requires to have permissions in order to operate on other reposito
 | -------- | -------------------------------| -------- |
 | PAT      | personal access token          | true     |
 
-| inputs          | labels.yml configuration                    | required | default              |
+| inputs          | description                                 | required | default              |
 | --------------- | ------------------------------------------  | -------- | -------------------- |
 | labels.yml      | Label configuration (desc, color, text)     | true     | `.github/labels.yml` |
 | repositories    | repositories list (e.g goat-community/goat) | true     |                      |
