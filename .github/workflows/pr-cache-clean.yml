@@ -1,11 +1,7 @@
 name: "Cleanup caches for closed branches"
-# https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#force-deleting-cache-entries
 
 on:
-  pull_request:
-    types:
-      - closed
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   cleanup:
