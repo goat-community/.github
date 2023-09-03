@@ -17,8 +17,8 @@ jobs:
         with:
             manifest: .github/labels.yml
             repository: |
-                goatcommunity/goat
-                goatcommunity/infra
-                goatcommunity/goat-accounts
-                goatcommunity/ums
+                goat-community/goat
+                goat-community/infra
+                goat-community/goat-accounts
+                goat-community/ums
             token: ${{ secrets.PAT }}
