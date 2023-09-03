@@ -1,0 +1,43 @@
+name: "Bug report form 🐛"
+description: "Thank you for reporting a bug!"
+labels: ["bug"]
+title: "bug"
+body:
+- type: textarea
+  attributes:
+    label: Summary 📃
+    value: <!--- Provide a general summary of the issue -->
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected Behaviour ✔
+    value: <!--- Tell us what should happen -->
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Current Behaviour 🔦
+    value: <!--- Tell us what happens instead of the expected behavior -->
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Possible Solution 💡
+    value: <!--- Not obligatory, but suggest a fix/reason for the bug, -->
+- type: textarea
+  attributes:
+    label: Steps to reproduce 👣
+    value: |
+         <!--- Provide a link to a live example, or an unambiguous set of steps to -->
+         <!--- reproduce this bug. Include code to reproduce, if relevant -->
+         1.
+         2.
+         3.
+         4.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Possible Implementation 📐
+    value: <!--- Not obligatory, but suggest an idea for implementing addition or change -->
