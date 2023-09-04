@@ -47,7 +47,7 @@ jobs:
     name: Sync labels
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.6.0
+      - uses: actions/checkout@v4
       - uses: micnncim/action-label-syncer@v1.3.0
         with:
             manifest: .github/labels.yml
