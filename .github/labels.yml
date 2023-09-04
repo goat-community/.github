@@ -94,3 +94,9 @@
 - name: autoupdate
   color: "F614BD"
   description: null
+- name: deprecated
+  color: "fef2c0"
+  description: Deprecated
+- name: enhancement
+  color: "ededed"
+  description: Enhancement
