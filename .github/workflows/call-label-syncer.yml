@@ -20,5 +20,9 @@ jobs:
                 goat-community/goat
                 goat-community/infra
                 goat-community/goat-accounts
+                goat-community/goat-gepapi
+                goat-community/goat-core
+                goat-community/goat-docs
+                goat-community/goat-frontend
                 goat-community/ums
             token: ${{ secrets.PAT }}
