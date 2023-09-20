@@ -22,6 +22,9 @@
     <a href="https://github.com/goat-community/goat/issues">Issues</a>
     ·
     <a href="https://github.com/goat-community/goat/milestones">Roadmap</a>
+    ·
+    <a href="https://discord.gg/WuWs9A5t">Discord</a>
+
   </p>
 </p>
 
