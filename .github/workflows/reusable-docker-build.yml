@@ -115,6 +115,9 @@
         image-tag: ${{ steps.image-tag.outputs.image-tag }}
   
       steps:
+        - name: 📥 Checkout
+          uses: actions/checkout@v4
+          
           # we need qemu and buildx so we can build multiple platforms later
         - name: 🐳 Set up QEMU
           id: qemu
