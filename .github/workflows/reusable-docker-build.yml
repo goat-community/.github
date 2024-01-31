@@ -115,6 +115,12 @@
         image-tag: ${{ steps.image-tag.outputs.image-tag }}
   
       steps:
+        - name: 📥 Checkout
+          uses: actions/checkout@v4
+  
+        - name: 📥 Checkout PR
+          uses: goat-community/.github/.github/actions/pr-git-checkout@main     
+          
           # we need qemu and buildx so we can build multiple platforms later
         - name: 🐳 Set up QEMU
           id: qemu
