@@ -117,13 +117,6 @@
       steps:
         - name: 📥 Checkout
           uses: actions/checkout@v4
-
-        # print directory structure for debugging
-        - name: 📂 Directory structure
-          run: |
-            pwd
-            ls -la
-            ls -la ${{ inputs.context }}  
           
           # we need qemu and buildx so we can build multiple platforms later
         - name: 🐳 Set up QEMU
@@ -158,6 +151,14 @@
             images: ${{ inputs.image-names }}
             flavor: ${{ inputs.flavor-rules }}
             tags: ${{ inputs.tag-rules }}
+
+        # print directory structure for debugging
+        - name: 📂 Directory structure
+          run: |
+            pwd
+            ls -la
+            ls -la ${{ inputs.context }}  
+            ls -la ${{ inputs.context }}/apps/web
   
         - name: 🐳 Docker Build and Push
           id: build_image
